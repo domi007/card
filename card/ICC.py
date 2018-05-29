@@ -57,7 +57,7 @@ class ISO7816(object):
     standard file tags available in "file_tags" class dictionnary
     '''
     
-    dbg = 0
+    dbg = 5
     
     INS_dic = {
         0x04 : 'DEACTIVATE FILE',
